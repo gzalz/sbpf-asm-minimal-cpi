@@ -34,7 +34,7 @@ mod tests {
 
         mollusk.add_program(
             &memo_program_id,
-            "sbpf/memo",
+            "elf/memo",
             &mollusk_svm::program::loader_keys::LOADER_V3,
         );
 
