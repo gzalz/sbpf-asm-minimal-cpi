@@ -8,7 +8,6 @@ mod tests {
     use solana_sdk::pubkey::Pubkey;
     use std::str::FromStr;
 
-    // This needs to fail for the right reasons
     #[test]
     fn test_increment_init() {
         let program_id_keypair_bytes = std::fs::read("deploy/program-keypair.json").unwrap()[..32]
